@@ -28,7 +28,7 @@ const server = http.createServer(function(req, res) {
   proxy.on('proxyRes', function(proxyRes, req, res) {
     // console.log('Raw [target] response', JSON.stringify(proxyRes.headers, true, 2));
     
-    proxyRes.headers['x-proxy'] = "now-padlock-proxy";
+    proxyRes.headers['x-proxy'] = "simple-basic-http-auth-proxy-vercel";
     
     // console.log('Updated [proxy] response', JSON.stringify(proxyRes.headers, true, 2));
     
@@ -37,7 +37,7 @@ const server = http.createServer(function(req, res) {
   
 });
 
-console.log("padlock proxy for ZEIT Now started on port 3000...");
+console.log("simple-basic-http-auth-proxy for Vercel started on port 3000...");
 server.listen(3000);
 
 
