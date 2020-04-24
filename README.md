@@ -8,11 +8,15 @@ to add simple password protection to deployments during the UAT stage.
 
 ## Getting Started
 
-Deploying this project to Vercel Now with the following ENV variables:
+1. Deploying this project to Vercel Now 
 
-+ `ORIGIN`: The URL of your stage deployment, best to point it to a custom domain assigned to the UAT branch.
-+ `USERNAME`: The username required to login.
-+ `PASSWORD`: The password required to login.
+  [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/bbiHQ/simple-basic-http-auth-proxy-vercel/tree/master/)
+
+2. Adding the following ENV variables for Production:
+
+  + `ORIGIN`: The URL of your stage deployment, best to point it to a custom domain assigned to the UAT branch.
+  + `USERNAME`: The username required to login.
+  + `PASSWORD`: The password required to login.
 
 ## Local Usage
 
