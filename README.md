@@ -6,6 +6,14 @@ This project uses [node-http-proxy](https://github.com/http-party/node-http-prox
 basic password protection to ORIGIN site via HTTP Auth, requiring no code change to the ORIGIN deployment. This is designed
 to add simple password protection to deployments during the UAT stage.
 
+## Demo
+
+The deployment at https://simple-basic-http-auth-proxy-vercel.now.sh adds password protection around Google search.
+
+Username: williamli
+
+Password: password
+
 ## Getting Started
 
 1. Deploying this project to Vercel Now<br/>[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/bbiHQ/simple-basic-http-auth-proxy-vercel/tree/master/)
