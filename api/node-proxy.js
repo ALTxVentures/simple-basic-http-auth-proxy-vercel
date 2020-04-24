@@ -15,7 +15,7 @@ const server = http.createServer(function(req, res) {
 
   
   
-  console.log('ORIGIN:', process.env.ORIGIN);
+  // console.log('ORIGIN:', process.env.ORIGIN);
   
   const credentials = auth(req);
   if (!credentials || !isAuthed(credentials, username, password)) {
