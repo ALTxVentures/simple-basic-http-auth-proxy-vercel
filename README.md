@@ -10,9 +10,9 @@ to add simple password protection to deployments during the UAT stage.
 
 Deploying this project to Vercel Now with the following ENV variables:
 
-`ORIGIN`: The URL of your stage deployment, best to point it to a custom domain assigned to the UAT branch.
-`USERNAME`: The username required to login.
-`PASSWORD`: The password required to login.
++ `ORIGIN`: The URL of your stage deployment, best to point it to a custom domain assigned to the UAT branch.
++ `USERNAME`: The username required to login.
++ `PASSWORD`: The password required to login.
 
 ## Local Usage
 
