@@ -8,12 +8,10 @@ const proxy = httpProxy.createProxyServer({changeOrigin: true, autoRewrite: true
 
 const server = http.createServer(function(req, res) {
 
-  // placeholder domain for testing
-  const origin = "https://theverge.com";
-  
-  // dummy placeholders
-  const password = "password";
-  const username = "user";
+  // load from ENVs
+  const origin = process.env.ORIGIN;
+  const password = process.env.PASSWORD;
+  const username = process.env.USERNAME;
 
   
   const credentials = auth(req);
