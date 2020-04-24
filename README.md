@@ -8,9 +8,7 @@ to add simple password protection to deployments during the UAT stage.
 
 ## Getting Started
 
-1. Deploying this project to Vercel Now 
-
-  [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/bbiHQ/simple-basic-http-auth-proxy-vercel/tree/master/)
+1. Deploying this project to Vercel Now<br/>[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/bbiHQ/simple-basic-http-auth-proxy-vercel/tree/master/)
 
 2. Adding the following ENV variables for Production:
 
