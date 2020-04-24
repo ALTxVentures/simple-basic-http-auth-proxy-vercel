@@ -41,8 +41,6 @@ console.log("simple-basic-http-auth-proxy for Vercel started on port 3000...");
 server.listen(3000);
 
 
-
-
 const isAuthed = function (credentials, username, password) {
     return credentials.name === username && credentials.pass === password;
 }
