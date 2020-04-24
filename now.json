@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "functions": {
+    "api/node-proxy/index.js": {
+      "memory": 1024
+    }
+  },
+  "routes": [
+    {"src": "/(.*)", "dest": "/api/node-proxy.js"}
+  ]
+}

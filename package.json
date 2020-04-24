@@ -1,0 +1,24 @@
+{
+  "name": "simple-basic-http-auth-proxy-vercel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbiHQ/simple-basic-http-auth-proxy-vercel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbiHQ/simple-basic-http-auth-proxy-vercel/issues"
+  },
+  "homepage": "https://github.com/bbiHQ/simple-basic-http-auth-proxy-vercel#readme",
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "http-proxy": "^1.18.0"
+  }
+}
