@@ -15,6 +15,8 @@ to add simple password protection to deployments during the UAT stage.
   + `ORIGIN`: The URL of your stage deployment, best to point it to a custom domain assigned to the UAT branch.
   + `USERNAME`: The username required to login.
   + `PASSWORD`: The password required to login.
+  
+3. Redeploy app using the updated ENV variables.
 
 ## Local Usage
 
