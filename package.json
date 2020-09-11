@@ -19,6 +19,6 @@
   "homepage": "https://github.com/bbiHQ/simple-basic-http-auth-proxy-vercel#readme",
   "dependencies": {
     "basic-auth": "^2.0.1",
-    "http-proxy": "^1.18.0"
+    "http-proxy": "^1.18.1"
   }
 }
