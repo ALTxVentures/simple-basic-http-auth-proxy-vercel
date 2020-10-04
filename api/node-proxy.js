@@ -10,15 +10,15 @@ const server = http.createServer(function(req, res) {
 
   // load from ENVs
   const origin = process.env.ORIGIN;
-  const password = process.env.PASSWORD;
-  const username = process.env.USERNAME;
+  const password = process.env.PASSWORD || null;
+  const username = process.env.USERNAME || null;
 
-  
+  const credentialsConfigured = username && password;
   
   // console.log('ORIGIN:', process.env.ORIGIN);
   
   const credentials = auth(req);
-  if (!credentials || !isAuthed(credentials, username, password)) {
+  if (credentialsConfigured && (!credentials || !isAuthed(credentials, username, password))) {
     res.statusCode = 401;
     res.setHeader('WWW-Authenticate', 'Basic realm="example"');
     res.end('Access denied.');
